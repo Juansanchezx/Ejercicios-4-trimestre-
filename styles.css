@@ -9,6 +9,7 @@ body{
     border: solid black;
     height: 50%;
     width: 50%;
+    border-radius: 20px;
 }
 
 main{
@@ -16,6 +17,7 @@ main{
     width: 100%;
     display: flex;
     border: solid;
+    border-radius: 20px;
 }
 
 .derecho{
@@ -24,6 +26,7 @@ main{
     flex-direction: column;
     padding: 50px;
     gap: 100px;
+    border-radius: 20px;
 }
 
 .izquierdo{
@@ -31,14 +34,11 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    border-radius: 20px;
 }
 
 .estilo-botones{
+    border-radius: 20px;
     height: 70px;
     background-color: white;
-}
-
-.estilo-botones:hover{
-    background-color: rebeccapurple;
-    transition: 1s;
 }
