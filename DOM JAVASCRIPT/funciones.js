@@ -24,7 +24,7 @@
 //     let numero = 6
 //     let numero2 = 20
 //     let resultado = (numero + numero2)
-//     console.log('esa hpt suma da ' + resultado + ' parece niño de kinder')
+//     console.log('la suma da ' + resultado )
 // }
 
 // suma()
@@ -42,7 +42,7 @@
 
 
 // function suma (numero1, numero2){
-//     return  'otra vez, pareces estupido es suma da ' + numero1 + numero2
+//     return  'la suma da ' + numero1 + numero2
    
    
 // }
