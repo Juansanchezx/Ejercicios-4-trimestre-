@@ -1,7 +1,12 @@
-function pasarnombre() {
-    let nodalinput = document.querySelector("#nombre").value;
-    let creado = document.createElement("li");
-    creado.append(nodainput)
-    let divi = document.querySelector("div");
-    divi.append(creado);
-}
+
+let button = document.querySelector("button");
+
+
+button.addEventListener("click",
+    function(){
+        let input = document.querySelector("input").value;
+        let section = document.querySelector(".recibido");
+        section.innerText = input
+    }
+    
+)

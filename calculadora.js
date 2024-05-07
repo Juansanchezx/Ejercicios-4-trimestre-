@@ -24,7 +24,7 @@ break;
 case '/':
 if (num2 === 0) {
 } else {
-    resultado = num1 / num2;
+resultado = num1 / num2;
 }
 break;
 default:
@@ -35,6 +35,7 @@ resultadoDisplay.textContent = resultado;
 }
 
 document.addEventListener('DOMContentLoaded', () => {});
+sumaButton.addEventListener('click', () => calculate('+'));
 restaButton.addEventListener('click', () => calculate('-'));
 multiplicacionButton.addEventListener('click', () => calculate('*'));
 divicionButton.addEventListener('click', () => calculate('/'));

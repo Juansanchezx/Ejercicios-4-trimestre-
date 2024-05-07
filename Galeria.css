@@ -1,0 +1,48 @@
+.logoimg{
+    height: 80px;
+}
+.center{
+    text-align: center;
+}
+.border,container,galeria{
+    flex-direction: column ;
+    justify-content: space-between;
+}
+.card{
+    padding: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.border,container,d-flex,justify-content-between{
+    margin-bottom: 10px;
+    margin-top: 10px;
+    justify-content: center;
+}
+.btn-outline-success{
+    margin-left: 900px;
+}
+.pagination{
+    justify-content: center;
+}
+
+.card-text1{
+    text-align: center;
+    color: red;
+}
+.p1{
+    color: red;
+    font-size: 12px;
+}
+
+h5{
+    color: gray;
+    text-align: center;
+}
+button.btn, btn-primary{
+    background-color: black;
+    border: none;
+}
+a.btn.btn-primary{
+    background-color: black;
+    border: none;
+}
