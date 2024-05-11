@@ -7,12 +7,24 @@
     <title>Escribe tu nombre</title>
 </head>
 <body>
-    <header>
-        <label for="nombre">Nombre</label>
-        <input id="nombre" type="nombre" value="">
-        <button id="boton">Enviar</button>
-        <section class="recibido "></section> 
+    <main>
+        <header>
+            <h1>Usuarios</h1>
         </header>
+        <section>
+        <h2>
+            Ingrese nombre de usuario
+        </h2>
+        <input  id="nombre" type="text">
+        <br>
+        <button onclick="guardarNombre()" class="boton"  id="btn" type="button">Enviar</button>
+    </section>
+    <section class="section2" id="resultado">
+        
+    </section>
+    </main>
+
+
 <script src="formulario.js"></script>
 </body>
 </html>
